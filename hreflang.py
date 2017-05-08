@@ -35,7 +35,7 @@ def indexcheck():
                     #print( href, dict[i])
                     if href == dict[i]:
                         #print(str.replace(href,"https://www.","https://produk3-local-preview-www."))
-                        pass # print("woo fucking hooooooo!!")
+                        pass
                     else:
                         vars.missing.insert(i, {"source": dict[i], "alt": i})
                 sleep(1) #So we don't kill the server/get blocked
